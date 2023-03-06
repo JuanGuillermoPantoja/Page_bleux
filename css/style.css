@@ -300,6 +300,13 @@ footer p{
         display: flex;
         justify-content: space-between;
         width: 100%;
+        padding: 0;
+    }
+    nav ul button{
+        width: 20%;
+        height: 100%;
+        padding: 0;
+        margin: 0;
     }
     .content1{
         display: flex;
@@ -363,9 +370,9 @@ footer p{
         background-color: #F1F2F7;
     }
     .content2 h1{
-        width: 100%;
+        width: 90%;
         color: #F41486;
-        font-size: 50px;
+        font-size: 40px;
         text-align: center;
     }    
     .art1{
