@@ -610,6 +610,7 @@ footer p{
         background-image: url(../images/Canva-Withered-Leaves-Photo.jpg);
         background-repeat: no-repeat;
         background-size: cover;
+        padding:0;
     }
     #aside2 img{
         padding: 0;
