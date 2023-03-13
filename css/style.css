@@ -304,12 +304,18 @@ footer p{
     }
     .nav_bar nav{
         width: 100%;
+        
+        
+    }
+    .nav_bar nav ul button{
+        height: 30px;
+    }
+    .nav_bar nav ul{
         display: flex;
         align-items: center;
-        justify-content: space-between;
-        padding-right: 10%;
+        justify-content: space-around;
+        padding: 0px;
     }
-    
     .content1{
         display: flex;
         flex-direction: column;
@@ -343,10 +349,10 @@ footer p{
         display: flex;
         justify-content: space-around;
         margin: 0%;
-        width: 40%;
+        width: 50%;
         height: 12%;
         padding: 0.5%;
-        border: 2px solid;
+        border: 2% solid;
         border-color: rgb(136, 136, 136);
         border-radius: 5px;
     }
@@ -505,7 +511,7 @@ footer p{
         justify-content: center;
         background-color: #F5F5F5;
         font-size: 2em;
-        margin-top: 10%;
+        margin-top: 20%;
         height: 10%;
     }
     p.p1 sup{
@@ -522,7 +528,7 @@ footer p{
         border: none;
         border-radius: 5px;
         width: 60%;
-        font-size: 1em;
+        font-size: 1.2em;
         margin-top: 2%;
         
     }
