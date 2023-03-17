@@ -294,16 +294,15 @@ footer p{
 }
 
 /*Responsive*/
-
-@media screen and (max-width:770px) {
+@media screen and (min-width:480px) and (max-width:768px){
     .nav_bar{
         margin: 0;
         padding: 0;
     }
     .nav_bar nav{
-        width: 100%;
-        padding: 0;
-        
+        display: flex;
+        justify-content: space-around;
+        width: 50%;
     }
     .nav_bar nav ul button{
         height: 35px;
@@ -311,7 +310,7 @@ footer p{
     .nav_bar nav ul{
         display: flex;
         align-items: center;
-        justify-content: space-around;
+        justify-content: space-between;
         padding: 0px;
         width: 100%;
     }
@@ -539,248 +538,6 @@ footer p{
         padding: 0;
     }
     
-}
-
-@media screen and (max-width:768px) {
-    .nav_bar{
-        display: flex;
-        margin: 0;
-        padding: 0;
-    }
-    .nav_bar nav{
-        width: 100%;        
-    }
-    .nav_bar nav ul button{
-        height: 30px;
-    }
-    .nav_bar nav ul{
-        display: flex;
-        align-items: center;
-        justify-content: space-around;
-        padding: 0px;
-    }
-    .content1{
-        display: flex;
-        flex-direction: row;
-        width: 100%;
-        margin: 0;
-        padding: 0;
-    }
-    #aside1{
-        display: flex;
-        width: 50%;
-        height: 340px;
-        flex-direction: column;
-        align-items: center;
-        background-color: #2E2550;
-    }
-    #aside1 h1{
-        color: white;
-        font-size: 3.5em;
-        margin: 0;
-        width: 50%;
-        padding-bottom: 5%;
-    }
-    #aside1 p{
-        color: white;
-        margin: 0;
-        width: 50%;
-        padding-bottom: 5%;
-    }
-    #aside1 .botones{
-        display: flex;
-        justify-content: space-around;
-        margin: 0%;
-        width: 50%;
-        height: 12%;
-        padding: 0.5%;
-        border: 2% solid;
-        border-color: rgb(136, 136, 136);
-        border-radius: 5px;
-    }
-    #aside2{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        width: 50%;
-        height: 340px;
-        background-image: url(../images/Canva-Withered-Leaves-Photo.jpg);
-        background-repeat: no-repeat;
-        background-size: cover;
-        padding:0;
-    }
-    #aside2 img{
-        padding: 0;
-        width: 25%;
-        height: 66%;
-    }
-    .content2{
-        width: 100%;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        background-color: #F1F2F7;
-        margin: 0;
-        padding: 0;
-    }
-    .content2 h1{
-        width: 100%;
-        color: #F41486;
-        font-size: 3em;
-        text-align: center;
-    }    
-    .art1{
-        width: 100%;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        margin: 0;
-        padding: 0;
-    }
-    .art1 img{
-        margin-left:0px;
-        margin-bottom: 10%;
-    }
-    .art2{
-        display: flex;
-        font-size: 1.5em;
-        width: 100%;
-        height: 50%;
-        flex-direction: column; 
-        align-items: center; 
-        margin: 0;     
-        padding: 0;
-        margin-bottom: 2%;
-    }
-    .art2 h2{
-        display: flex;
-        justify-content: center;
-        color: #C44185;
-        margin:0;
-        width: 100%;
-        
-    }
-    .art2 p{
-        display: flex;
-        justify-content: center;
-        width: 65%;
-        
-    }
-    .art2 ul{
-        margin-top: 2%;
-        padding-top: 0;
-        list-style: url(../images/chulito.png);
-        color: black;        
-    }
-    .art2 ul li{
-        width: 50%;
-        margin:0;
-        padding:0;
-        
-    }
-    .art2 h4{
-        margin: 0;
-        color: #F41486;
-        margin:0;
-        width: 50%;
-    }
-    
-    article{
-        width: 100%;
-        height: 100%;
-        display: flex;
-        justify-content: center;
-        text-align: center;
-        background-color: #1E172F;
-        margin: 0;
-        padding: 0;
-    }
-    article h1{
-        width: 100%;
-        font-size: 3em;
-        color: white;
-    }
-    article p.part{
-        width: 100%;
-        font-size: 1em;
-        color: white;
-    }
-    .box{
-        width: 70%;
-        height: 590px;
-        background-color: rgb(255, 255, 255);
-        color: rgb(0, 0, 0);
-        border-radius: 5px;
-    }
-    .box img{
-        width: 25%;
-    }
-    .box ul{
-        margin-top: 10%;
-        color: black;
-        list-style: url(../images/blackChulito.png);
-    }
-    .box ul .star{
-        list-style: url(../images/blackStar.png );
-    }
-    .box ul .starPink{
-        list-style: url(../images/pinkStar.png );
-    }
-    .box ul .chulitoPink{
-        list-style: url(../images/pinkChulito.png );
-    }
-    .box ul .x{
-        list-style: url(../images/xBlack.png );
-    }
-    
-    .box h3{
-        color: #000000;
-        margin-top: 2%;
-        margin-bottom: 2%;
-    }
-    .box h3.lite{
-        color: #F41486;
-        margin-top: 2%;
-        margin-bottom: 2%;
-    }
-    .box p{
-        margin-top: 5%
-    }
-    .box p.p1{
-        width: 100%;
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-        background-color: #F5F5F5;
-        font-size: 2em;
-        margin-top: 5%;
-        height: 10%;
-    }
-    p.p1 sup{
-        font-size: 0.5em;
-    }
-    .box .but,.but1{
-        border-bottom-left-radius: 5px;
-        border-bottom-right-radius: 5px;
-        background-color: #F5F5F5;
-    }
-    .box button{
-        background-color: #2E2550;
-        color: white;
-        border: none;
-        border-radius: 5px;
-        width: 60%;
-        font-size: 1.2em;
-        margin-top: 2%;
-    }
-    footer{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        margin: 0;
-        padding: 0;
-    }
 }
 
 @media screen and (max-width:480px) {
@@ -1027,6 +784,5 @@ footer p{
         padding: 0;
     }
 }
-
 
 
