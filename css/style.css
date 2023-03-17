@@ -294,7 +294,7 @@ footer p{
 }
 
 /*Responsive*/
-@media screen and (min-width:480px) and (max-width:768px){
+@media screen and (min-width:480px) and (max-width:600px){
     .nav_bar{
         margin: 0;
         padding: 0;
@@ -302,7 +302,7 @@ footer p{
     .nav_bar nav{
         display: flex;
         justify-content: space-around;
-        width: 50%;
+        width: 60%;
     }
     .nav_bar nav ul button{
         height: 35px;
@@ -331,7 +331,7 @@ footer p{
     }
     #aside1 h1{
         color: white;
-        font-size: 2.5em;
+        font-size: 2.1em;
         margin: 0;
         width: 50%;
         padding-bottom: 5%;
@@ -341,13 +341,13 @@ footer p{
         margin: 0;
         width: 50%;
         padding-bottom: 5%;
-        font-size: 1em;
+        font-size: 0.8em;
     }
     #aside1 .botones{
         display: flex;
         justify-content: space-around;
         margin: 0%;
-        width: 50%;
+        width: 65%;
         height: 12%;
         padding: 0.5%;
         border: 2% solid;
@@ -368,7 +368,7 @@ footer p{
     }
     #aside2 img{
         padding: 0;
-        width: 30%;
+        width: 40%;
         height: 66%;
     }
     .content2{
@@ -464,7 +464,7 @@ footer p{
     }
     .box{
         width: 50%;
-        height: 558px;
+        height: 520px;
         background-color: rgb(255, 255, 255);
         color: rgb(0, 0, 0);
         border-radius: 5px;
